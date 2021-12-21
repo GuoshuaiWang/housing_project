@@ -28,11 +28,11 @@ The data covers the information of sold-properties from 2000 to July 2021. The d
 | 2004113258    | killara-nsw-2071 | 22 Oct 2003 | private treaty     |  House  | 1.0 | 1445000 | 4.0 | 2.0  | 2.0  | 562.0 | -37.84444       | 145.120941         | 153 Station Street  | 1 |
 | 2004234169    | mascot-nsw-2020 | 17 Mar 2011 | private treaty     |  ApartmentUnitFlat  | 1.0 | 445000 | 1.0 | 1.0        | 1.0  | | -33.9207039       | 151.189316        | 42/635 Gardeners Road  | 1 |
 
-* **note**: the sample data can be found in the properties_clean.csv in the [domain_scanner.zip](https://github.com/GuoshuaiWang/housing_project/blob/master/domain_screener.zip)
+* **note**: the sample data can be found in the properties_clean.csv in the [domain_scanner.zip](https://github.com/GuoshuaiWang/housing_project/blob/main/domain_screener.zip)
 
 ## Code Instruction
 ### Step 1: unzip the zip file
-After unzipping the [domain_scanner.zip](https://github.com/GuoshuaiWang/housing_project/blob/master/domain_screener.zip) file, you will see 6 files inside
+After unzipping the [domain_scanner.zip](https://github.com/GuoshuaiWang/housing_project/blob/main/domain_screener.zip) file, you will see 6 files inside
 * bigtable.sql
 * distance_to_CBD.ipynb
 * properties_cleaned.csv
@@ -66,7 +66,7 @@ In the final step, we can run the table_by_property_type.ipynb to generate sever
 The purpose of this step is to generate csv files for people who have minimal knowledge about EXCEL to look up properties based on their individual needs.
 
 ## Analytical Report
-The final analytical report can be found [here](https://raw.githubusercontent.com/GuoshuaiWang/housing_project/master/2021-11-18-Project.pdf)
+The final analytical report can be found [here](https://raw.githubusercontent.com/GuoshuaiWang/housing_project/main/2021-11-18-Project.pdf)
 This report contains all the detailed processes about this project, which includes 
 * problem statement
 * data source
